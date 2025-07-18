@@ -1,0 +1,4 @@
+echo 'Wait! Looking for errors and testing your code before commit...'
+pnpm test || (echo 'Check your code! failed to send the commit. Please fix the errors before commit.' && exit 1)
+echo 'Done!'
+
